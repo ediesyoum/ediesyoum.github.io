@@ -1,0 +1,25 @@
+body {
+  font-family:'Futura-CondensedMedium';
+  margin: 0;
+	background-image: linear-gradient(to right, grey, orange);
+}
+p {
+  text-align: center;
+}
+div {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0px 20px 10px 20px;
+  margin: 20% auto;
+  background-color: rgba(255, 194, 71, .6);
+  max-width: 50%;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.illustration_01 {
+  background-image: url("bg2.jpg");
+}
