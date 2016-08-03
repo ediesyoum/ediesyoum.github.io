@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <title>Eden Syoum: Personal</title>
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+	<title> Eden Syoum :: Personal </title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+<body>
 
-<div>
-    <article>
-        <p>Welcome - This site is under construction.</p>
-    </article>
-</div>
+<nav>
+	<ul id="menu">
+		<li data-menuanchor="1" class="active"><a href="#1">about</a></li>
+		<li data-menuanchor="2"><a href="#2">portfolio</a></li>
+		<li data-menuanchor="3"><a href="#3">inspirations</a></li>
+		<li data-menuanchor="4"><a href="#4">contact</a></li>
+	</ul>
+</nav>
+
+<div id="fullpage">
+
+		<div class="section " id="section0">
+			<h1>Hello!</h1>
+			<p></p>
+		</div>
+
+		<div class="section" id="section1">
+			<div class="intro">
+				<h1>Things I've Done</h1>
+				<p>Portfolio stuff will go in here.</p>
+			</div>
+		</div>
+
+		<div class="section" id="section2">
+			<div class="intro">
+				<h1>Inspirations</h1>
+				<p>Things that have inspired me.</p>
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<div class="intro">
+				<h1>Contact</h1>
+				<p>Contact me! Hire me!</p>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
