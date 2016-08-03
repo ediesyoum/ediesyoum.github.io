@@ -122,10 +122,10 @@
 	}
 	.divright {
 		width: 39%;
-		display: inline-block;
-		margin: -10%;
-		padding: 10%;
-		text-align: center;
+		float: right;
+		margin: 0 auto;
+		padding-right: 10%;
+		padding-top: 3%;
 		color: rgba(255,255,255, 0.5);
 		font-family: 'Lobster', cursive;
 		font-size: 2em;
@@ -134,8 +134,8 @@
 		text-align: justify;
 	}
 	#me {
-		width: 70%;
-		height: 80%;
+		width: 80%;
+		max-height: 70%;
 		margin: 0 auto;
 		border-radius: 5%;
 		border: 10px solid rgba(255,255,255, 0.5);
