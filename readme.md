@@ -5,28 +5,28 @@
 
 * ### Sections
 
-#### order of sections:
+#### Order of sections:
 
 	1. welcome & about me section
 
 	2. portfolio work section
 
 	3. inspirations section
-		1. blogs or mags i read
-		2. different devs that have inspired me
-		3. groups that have inspired me
+		* blogs or mags i read
+		* different devs that have inspired me
+		* groups that have inspired me
 
 	4. contact section
-		1. link to resume
-		2. link to linkedin
-		3. link to GA portfolio
-		4. email me
+		* link to resume
+		* link to linkedin
+		* link to GA portfolio
+		* email me
 
 * ### Projects
 
-  1. this will include a list of Projects
-  2. that i worked on that i want to include
-  3. in my portfolio :)
+  * this will include a list of Projects
+  * that i worked on that i want to include
+  * in my portfolio :)
 
 * ### Languages
 
