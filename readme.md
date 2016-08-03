@@ -1,20 +1,37 @@
 # edensyoum.com
 
-## Portfolio
+* ### Portfolio
 
 
-## Sections
+* ### Sections
 
-Tic tac toe is a solid game to show front-end capabilities in the browser. We will be storing session-only data in the browser that will reset itself when either of the users start the game over again.
+#### order of sections:
 
-## Projects
+	1. welcome & about me section
 
+	2. portfolio work section
 
+	3. inspirations section
+		1. blogs or mags i read
+		2. different devs that have inspired me
+		3. groups that have inspired me
 
-## Languages
+	4. contact section
+		1. link to resume
+		2. link to linkedin
+		3. link to GA portfolio
+		4. email me
 
-  HTML, CSS, JavaScript, jQuery
+* ### Projects
 
-## Resources
+  1. this will include a list of Projects
+  2. that i worked on that i want to include
+  3. in my portfolio :)
 
-  fullPage.js - http://alvarotrigo.com/fullPage
+* ### Languages
+
+  #### HTML, CSS, JavaScript, jQuery
+
+* ### Resources
+
+  [fullPage.js](http://alvarotrigo.com/fullPage) for animations
