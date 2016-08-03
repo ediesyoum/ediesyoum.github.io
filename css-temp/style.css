@@ -1,0 +1,106 @@
+/* Adapted from fullPage.js by Alvaro Trigo
+/* https://github.com/alvarotrigo/fullPage.js
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background: -webkit-gradient(linear, top left, bottom left, from(#ba5f15), to(#956c3a));
+		background: -webkit-linear-gradient(#ba5f15, #956c3a);
+		background: linear-gradient(#ba5f15,#956c3a);
+	}
+
+	#section1{
+		background: -webkit-gradient(linear, top left, bottom left, from(#956c3a), to(#617d6b));
+		background: -webkit-linear-gradient(#956c3a, #617d6b);
+		background: linear-gradient(#956c3a,#617d6b);
+	}
+
+	#section2{
+		background: -webkit-gradient(linear, top left, bottom left, from(#617d6b), to(#53827a));
+		background: -webkit-linear-gradient(#617d6b, #53827a);
+		background: linear-gradient(#617d6b,#53827a);
+	}
+
+	#section3{
+		background: -webkit-gradient(linear, top left, bottom left, from(#53827a), to(#ba5f15));
+		background: -webkit-linear-gradient(#53827a, #ba5f15);
+		background: linear-gradient(#53827a,#ba5f15);
+	}
+
+	/* Menu CSS
+	* --------------------------------------- */
+	#menu {
+    position:fixed;
+    background: rgba(255,255,255, 0.1);
+	  transition: top 0.2s;
+		padding-top: 15px;
+		height: 60px;
+		text-align: center;
+    top:0;
+    left:0;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+  }
+	#logo {
+	  float: left;
+	}
+
+  #menu li {
+    display:inline-block;
+    margin: 10px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 5px;
+              border-radius: 5px;
+  }
+  #menu li.active{
+    background:#666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+  }
+  #menu li a{
+		cursor: pointer;
+    text-decoration:none;
+    color: #000;
+  }
+  #menu li.active a:hover{
+    color: #000;
+  }
+  #menu li:hover{
+    background-color: #19564c;
+		cursor: pointer;
+  }
+  #menu li a,
+  #menu li.active a{
+    padding: 9px 18px;
+    display:block;
+  }
+  #menu li.active a{
+    color: #fff;
+  }
+
+	#infoMenu li a {
+		color: #fff;
+	}
