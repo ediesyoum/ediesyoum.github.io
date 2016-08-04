@@ -1,11 +1,10 @@
 # edensyoum.com
 
-* ### Portfolio
+![Eden S](https://raw.githubusercontent.com/ediesyoum/ediesyoum.github.io/master/assets/eden.png "Eden S")
 
+- - - -
 
-* ### Sections
-
-#### Order of sections:
+### Sections
 
 	1. welcome & about me section
 
