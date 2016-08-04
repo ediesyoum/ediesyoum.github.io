@@ -1,6 +1,8 @@
 # edensyoum.com
 
-![Eden S](https://raw.githubusercontent.com/ediesyoum/ediesyoum.github.io/master/assets/eden.png "Eden S")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ediesyoum/ediesyoum.github.io/master/assets/eden.png" title="Eden S" alt="Eden S" />
+</p>
 
 - - - -
 
