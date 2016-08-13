@@ -1,11 +1,12 @@
 # edensyoum.com
 
-* ### Portfolio
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ediesyoum/ediesyoum.github.io/master/assets/eden.png" title="Eden S" alt="Eden S" />
+</p>
 
+- - - -
 
-* ### Sections
-
-#### Order of sections:
+### Sections
 
 	1. welcome & about me section
 
