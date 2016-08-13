@@ -27,27 +27,27 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background: -webkit-gradient(linear, top left, bottom left, from(#ba5f15), to(#956c3a));
-		background: -webkit-linear-gradient(#ba5f15, #956c3a);
-		background: linear-gradient(#ba5f15,#956c3a);
+		background: -webkit-gradient(linear, top left, bottom left, from(#fdded1), to(#d2cfdf));
+		background: -webkit-linear-gradient(#fdded1, #d2cfdf);
+		background: linear-gradient(#fdded1,#d2cfdf);
 	}
 
 	#section1{
-		background: -webkit-gradient(linear, top left, bottom left, from(#956c3a), to(#617d6b));
-		background: -webkit-linear-gradient(#956c3a, #617d6b);
-		background: linear-gradient(#956c3a,#617d6b);
+		background: -webkit-gradient(linear, top left, bottom left, from(#d2cfdf), to(#cfd7e2));
+		background: -webkit-linear-gradient(#d2cfdf, #cfd7e2);
+		background: linear-gradient(#d2cfdf,#6cfd7e217d6b);
 	}
 
 	#section2{
-		background: -webkit-gradient(linear, top left, bottom left, from(#617d6b), to(#53827a));
-		background: -webkit-linear-gradient(#617d6b, #53827a);
-		background: linear-gradient(#617d6b,#53827a);
+		background: -webkit-gradient(linear, top left, bottom left, from(#cfd7e2), to(#cedde3));
+		background: -webkit-linear-gradient(#cfd7e2, #cedde3);
+		background: linear-gradient(#cfd7e2,#cedde3);
 	}
 
 	#section3{
-		background: -webkit-gradient(linear, top left, bottom left, from(#53827a), to(#ba5f15));
-		background: -webkit-linear-gradient(#53827a, #ba5f15);
-		background: linear-gradient(#53827a,#ba5f15);
+		background: -webkit-gradient(linear, top left, bottom left, from(#cedde3), to(#fdded1));
+		background: -webkit-linear-gradient(#cedde3, #fdded1);
+		background: linear-gradient(#cedde3,#fdded1);
 	}
 
 	/* Menu CSS
