@@ -12,6 +12,7 @@ html {
 }
 	h1 {
 		font-size: 3em;
+		font-weight:lighter;
 		font-family: 'Josefin Sans', sans-serif;
 		color: rgba(90, 53, 214, .8);
 		margin:0;
@@ -81,8 +82,7 @@ html {
     position:fixed;
     background: rgba(115,119,57, 0.1);
 	  transition: top 0.2s;
-		padding-top: 15px;
-		height: 60px;
+		height: 7vw;
 		text-align: center;
     top:0;
     left:0;
@@ -149,6 +149,7 @@ html {
 		font-size: 1.5em;
 		color: rgba(28,54,98, .5);
 		font-family: 'Josefin Sans', sans-serif;
+		font-weight: lighter;
 	}
 	p {
 		font-size: 1.1em;
