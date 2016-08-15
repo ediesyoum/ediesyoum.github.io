@@ -7,21 +7,36 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 
+html {
+	font-size: 2vh;
+}
 	h1 {
-		font-size: 2.5em;
+		font-size: 3.5em;
 		font-family: 'Lobster', cursive;
-		color: #fff;
+		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
 	}
-	.intro p {
-		color: #fff;
+	img {
+		max-width: 100%;
 	}
 
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section {
 		text-align:center;
+	}
+
+		/* Overwriting styles for the navigation dots (to place it where we want)
+	* --------------------------------------- */
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
 	}
 
 	/* Defining each section background and styles
@@ -114,8 +129,16 @@
 	/* Custom styles added to each section
 	* --------------------------------------- */
 
+	#welcome {
+		background-image: url('../assets/mandala.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		max-width: 70vw;
+		margin-top: -5vh;
+		padding-bottom: 60vh;
+	}
 	.divleft {
-		width: 39%;
+		height:84%;
 		display: inline-block;
 		margin: 0 auto;
 	}
@@ -127,29 +150,34 @@
 		padding-top: 3%;
 		color: rgba(255,255,255, 0.5);
 		font-family: 'Lobster', cursive;
-		font-size: 2em;
+		font-size: 1em;
 	}
 	.divright p {
 		text-align: justify;
 		font-size: 1em;
 	}
 	h2 {
-		font-size: 3em;
-		color: white;
-		font-family: 'Lobster', cursive;
 		font-size: 1.5em;
+		color: rgba(28,54,98, .5);
+		font-family: 'Lobster', cursive;
 	}
 	p {
-		font-size: 3em;
-		color: rgba(255,255,255, 0.5);
-		font-family: 'Lobster', cursive;
+		font-size: 1em;
+		color: #1c3662;
+		width: 60%;
+		text-align: justify;
+		margin: 0 auto;
+	}
+	.description {
+		font-size: 1em;
+		color: #1c3662;
+		width: 60%;
+		text-align: justify;
+		margin: 0 auto;
+		padding: 10%;
 	}
 	#me {
-		width: 375px;
-		height: 50%;
-		margin: 0 auto;
-		border-radius: 5%;
-		border: 10px solid rgba(255,255,255, 0.5);
+		width: 50%;
 		opacity: 0.8;
 	}
 	.divcenter {
@@ -157,8 +185,8 @@
 		margin: 0 auto;
 	}
 	#portfolio-img {
-		width: 250px;
-		height: 200px;
+		max-width: 30%;
+		max-height: 20%;
 		margin: 0 auto;
 		border-radius: 5%;
 		border: 10px solid rgba(255,255,255, 0.5);
