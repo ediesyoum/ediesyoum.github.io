@@ -4,21 +4,20 @@
 	/* Style for our header texts
 	* --------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 html {
 	font-size: 2vh;
 }
 	h1 {
-		font-size: 3.5em;
-		font-family: 'Lobster', cursive;
+		font-size: 3em;
+		font-family: 'Josefin Sans', sans-serif;
 		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
 	}
 	img {
-		max-width: 100%;
+		max-width: 90%;
 	}
 
 	/* Centered texts in each section
@@ -69,10 +68,10 @@ html {
 	* --------------------------------------- */
 	#menu {
     position:fixed;
-    background: rgba(255,255,255, 0.1);
+    background: rgba(115,119,57, 0.1);
 	  transition: top 0.2s;
 		padding-top: 15px;
-		height: 60px;
+		height: 6vh;
 		text-align: center;
     top:0;
     left:0;
@@ -80,13 +79,7 @@ html {
     width: 100%;
     padding: 0;
     margin:0;
-		font-family: 'Lobster', cursive;
   }
-	#logo {
-		font-family: 'Lobster', cursive;
-		font-size: 1.1em;
-	}
-
   #menu li {
     display:inline-block;
     margin: 10px;
@@ -104,13 +97,13 @@ html {
   #menu li a{
 		cursor: pointer;
     text-decoration:none;
-    color: #000;
+    color: rgba(51,77,74,.9);
   }
-  #menu li.active a:hover{
-    color: #000;
+  #menu a:hover{
+		color: rgba(211,94,0,.9);
   }
   #menu li:hover{
-    background-color: #19564c;
+    background-color: rgba(56,77,51,.3);
 		cursor: pointer;
   }
   #menu li a,
@@ -133,33 +126,14 @@ html {
 		background-image: url('../assets/mandala.png');
 		background-repeat: no-repeat;
 		background-position: center;
-		max-width: 70vw;
+		width: 70vw;
 		margin-top: -5vh;
 		padding-bottom: 60vh;
-	}
-	.divleft {
-		height:84%;
-		display: inline-block;
-		margin: 0 auto;
-	}
-	.divright {
-		width: 45%;
-		float: right;
-		margin: 50px auto;
-		padding-right: 50px;
-		padding-top: 3%;
-		color: rgba(255,255,255, 0.5);
-		font-family: 'Lobster', cursive;
-		font-size: 1em;
-	}
-	.divright p {
-		text-align: justify;
-		font-size: 1em;
 	}
 	h2 {
 		font-size: 1.5em;
 		color: rgba(28,54,98, .5);
-		font-family: 'Lobster', cursive;
+		font-family: 'Josefin Sans', sans-serif;
 	}
 	p {
 		font-size: 1em;
@@ -177,7 +151,7 @@ html {
 		padding: 10%;
 	}
 	#me {
-		width: 50%;
+		width: 20vh;
 		opacity: 0.8;
 	}
 	.divcenter {
@@ -185,10 +159,18 @@ html {
 		margin: 0 auto;
 	}
 	#portfolio-img {
-		max-width: 30%;
-		max-height: 20%;
-		margin: 0 auto;
+		max-width: 40%;
+		margin: -20px -20%;
 		border-radius: 5%;
 		border: 10px solid rgba(255,255,255, 0.5);
 		opacity: 0.8;
 	}
+.portfolio-txt {
+	padding-top: 150px;
+}
+.portfolio-div {
+	width: 90%;
+	height: 80%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
