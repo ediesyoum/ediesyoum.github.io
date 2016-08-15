@@ -175,12 +175,17 @@ html {
 		border: 10px solid rgba(255,255,255, 0.5);
 		opacity: 0.8;
 	}
-.portfolio-txt {
-	padding-top: 150px;
-}
-.portfolio-div {
-	width: 90%;
-	height: 80%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
+	.portfolio-txt {
+		padding-top: 150px;
+	}
+	.portfolio-div {
+		width: 90%;
+		height: 80%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+	#contact {
+		a, a:hover {
+			font-size: 20vh;
+		}
+	}
