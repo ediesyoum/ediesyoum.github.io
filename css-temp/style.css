@@ -8,6 +8,7 @@
 
 html {
 	font-size: 2vh;
+	font-family: 'Josefin Sans', sans-serif;
 }
 	h1 {
 		font-size: 3em;
@@ -71,7 +72,7 @@ html {
     background: rgba(115,119,57, 0.1);
 	  transition: top 0.2s;
 		padding-top: 15px;
-		height: 6vh;
+		height: 60px;
 		text-align: center;
     top:0;
     left:0;
@@ -126,9 +127,13 @@ html {
 		background-image: url('../assets/mandala.png');
 		background-repeat: no-repeat;
 		background-position: center;
-		width: 70vw;
+		width: 50vh;
 		margin-top: -5vh;
 		padding-bottom: 60vh;
+	}
+	a {
+		text-align: center;
+		text-decoration: none;
 	}
 	h2 {
 		font-size: 1.5em;
@@ -136,9 +141,9 @@ html {
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	p {
-		font-size: 1em;
+		font-size: 1.1em;
 		color: #1c3662;
-		width: 60%;
+		width: 80%;
 		text-align: justify;
 		margin: 0 auto;
 	}
@@ -148,18 +153,23 @@ html {
 		width: 60%;
 		text-align: justify;
 		margin: 0 auto;
-		padding: 10%;
+		padding: 5%;
 	}
 	#me {
 		width: 20vh;
+		height: 20%;
+		float: left;
 		opacity: 0.8;
+		padding: 1px;
 	}
 	.divcenter {
-		width: 90%;
+		width: 70%;
 		margin: 0 auto;
+		text-align: center;
 	}
 	#portfolio-img {
 		max-width: 40%;
+		max-height: 30%;
 		margin: -20px -20%;
 		border-radius: 5%;
 		border: 10px solid rgba(255,255,255, 0.5);
