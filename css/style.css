@@ -141,10 +141,6 @@ html {
 		margin-top: -5vh;
 		padding-bottom: 60vh;
 	}
-	a {
-		text-align: center;
-		text-decoration: none;
-	}
 	h2 {
 		font-size: 1.5em;
 		color: rgba(28,54,98, .5);
@@ -177,6 +173,11 @@ html {
 		width: 70%;
 		margin: 0 auto;
 		text-align: center;
+	}
+	.about {
+		width: 70%;
+		margin: 20px auto;
+		font-size: .9em;
 	}
 	#portfolio-img {
 		max-width: 40%;
