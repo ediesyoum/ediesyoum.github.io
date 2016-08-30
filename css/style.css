@@ -146,6 +146,19 @@ html {
 			margin-top: -5vh;
 			padding-bottom: 65vh;
 		}
+		#menu {
+			position:fixed;
+			background: rgba(115,119,57, 0.1);
+			transition: top 0.2s;
+			height: 3.7em;
+			text-align: center;
+			top:0;
+			left:0;
+			z-index: 70;
+			width: 100%;
+			padding: 0;
+			margin:0;
+		}
 	}
 	h2 {
 		font-size: 1.5em;
