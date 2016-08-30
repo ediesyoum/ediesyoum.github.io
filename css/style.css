@@ -17,11 +17,7 @@ html {
 		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
-	}
-	img {
-		max-width: 90%;
-	}
-
+}
 	a {
 		text-align: center;
 		color: #751d78;
@@ -137,9 +133,18 @@ html {
 		background-image: url('../assets/mandala.png');
 		background-repeat: no-repeat;
 		background-position: center;
-		min-width: 80%;
 		margin-top: -5vh;
 		padding-bottom: 65vh;
+	}
+	@media only screen and (max-width: 380px) {
+		#welcome {
+			background-image: url('../assets/mandala-sm.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			max-width: 90%;
+			margin-top: -5vh;
+			padding-bottom: 65vh;
+		}
 	}
 	h2 {
 		font-size: 1.5em;
@@ -188,7 +193,7 @@ html {
 		opacity: 0.8;
 	}
 	.portfolio-txt {
-		padding-top: 100px;
+		padding-top: 100;
 	}
 	.portfolio-div {
 		width: 90%;
