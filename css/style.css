@@ -82,7 +82,7 @@ html {
     position:fixed;
     background: rgba(115,119,57, 0.1);
 	  transition: top 0.2s;
-		height: 7vw;
+		height: 3.5em;
 		text-align: center;
     top:0;
     left:0;
@@ -111,10 +111,10 @@ html {
     color: rgba(51,77,74,.9);
   }
   #menu a:hover{
-		color: rgba(211,94,0,.9);
+		color: white;
   }
   #menu li:hover{
-    background-color: rgba(56,77,51,.3);
+    background-color: rgba(211,94,0,.6);
 		cursor: pointer;
   }
   #menu li a,
@@ -137,9 +137,9 @@ html {
 		background-image: url('../assets/mandala.png');
 		background-repeat: no-repeat;
 		background-position: center;
-		width: 50vh;
+		min-width: 80%;
 		margin-top: -5vh;
-		padding-bottom: 60vh;
+		padding-bottom: 65vh;
 	}
 	h2 {
 		font-size: 1.5em;
@@ -188,11 +188,11 @@ html {
 		opacity: 0.8;
 	}
 	.portfolio-txt {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 	.portfolio-div {
 		width: 90%;
 		height: 80%;
 		margin: 0 auto;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 	}
