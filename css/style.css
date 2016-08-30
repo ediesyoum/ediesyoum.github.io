@@ -141,7 +141,8 @@ html {
 			background-image: url('../assets/mandala-sm.png');
 			background-repeat: no-repeat;
 			background-position: center;
-			max-width: 90%;
+			width: 100%;
+			height: auto;
 			margin-top: -5vh;
 			padding-bottom: 65vh;
 		}
@@ -193,7 +194,7 @@ html {
 		opacity: 0.8;
 	}
 	.portfolio-txt {
-		padding-top: 100;
+		padding-top: 100px;
 	}
 	.portfolio-div {
 		width: 90%;
