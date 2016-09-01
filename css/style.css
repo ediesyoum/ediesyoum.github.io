@@ -255,4 +255,15 @@ html {
 		a {
 			font-size: .6em;
 		}
+		#portfolio-img {
+			max-width: 40%;
+			max-height: 30%;
+			margin: -20px -20%;
+			border-radius: 5%;
+			border: 10px solid rgba(255,255,255, 0.5);
+			opacity: 0.8;
+		}
+		.portfolio-txt {
+			padding-top: 75px;
+		}
 	}
