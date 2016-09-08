@@ -4,32 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-/* Global */
+/* Global - fullPage Manip */
 
 	html {
 		font-size: 1em;
 		font-family: 'Josefin Sans', sans-serif;
 	}
-	h1 {
-		font-size: 3em;
-		font-weight:lighter;
-		font-family: 'Josefin Sans', sans-serif;
-		color: rgba(90, 53, 214, .8);
-		margin:0;
-		padding:0;
-	}
-	a {
-		text-align: center;
-		color: #751d78;
-		font-size: 1.2em;
-	}
-		a:hover {
-		color: #75781d;
-		cursor: pointer;
-	}
-
-/* Fullpage CSS */
-
 	.section {
 		text-align:center;
 	}
@@ -120,24 +100,41 @@
 
 /* Custom */
 
-	#welcome {
-		background-image: url('../assets/mandala.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		margin-top: -5vh;
-		padding-bottom: 65vh;
+	h1 {
+		font-size: 2.5em;
+		font-weight:lighter;
+		font-family: 'Josefin Sans', sans-serif;
+		color: rgba(90, 53, 214, .8);
+		margin:0;
+		padding:0;
 	}
 	h2 {
-		font-size: 2em;
+		font-size: 1.7em;
 		color: rgba(28,54,98, .5);
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: lighter;
+	}
+	a {
+		text-align: center;
+		color: #751d78;
+		font-size: 1.2em;
+	}
+	a:hover {
+		color: #75781d;
+		cursor: pointer;
 	}
 	p {
 		color: #1c3662;
 		width: 80%;
 		text-align: justify;
 		margin: 0 auto;
+	}
+	#welcome {
+		background-image: url('../assets/mandala.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: -5vh;
+		padding-bottom: 65vh;
 	}
 	.description {
 		font-size: 2vh;
@@ -161,8 +158,8 @@
 	}
 	.about {
 		font-size: 2vh;
-		width: 70%;
-		margin: 20px auto;
+		width: 85%;
+		margin: 0 auto;
 	}
 	#portfolio-img {
 		max-width: 40%;
@@ -173,7 +170,7 @@
 		opacity: 0.8;
 	}
 	.portfolio-txt {
-		padding-top: 100px;
+		padding-top: 150px;
 	}
 	.portfolio-div {
 		width: 90%;
@@ -185,7 +182,7 @@
 		text-align: center;
 	}
 
-/* Responsive CSS */
+/* Responsive Mobile */
 
 	@media only screen and (max-width: 380px) {
 		#welcome {
@@ -232,10 +229,9 @@
 		p {
 			font-size: .6em;
 			color: #1c3662;
-			width: 85%;
+			width: 70%;
 			text-align: justify;
-			margin: 0 auto;
-			padding: -20px;
+			margin: -2px auto;
 		}
 		.description {
 			font-size: .6em;
