@@ -1,15 +1,15 @@
-/* Adapted from fullPage.js by Alvaro Trigo
-/* https://github.com/alvarotrigo/fullPage.js
+/* Adapted from fullPage.js by Alvaro Trigo */
+/* https://github.com/alvarotrigo/fullPage.js */
 
-	/* Style for our header texts
-	* --------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-html {
-	font-size: 2vh;
-	font-family: 'Josefin Sans', sans-serif;
-}
+/* Global */
+
+	html {
+		font-size: 1em;
+		font-family: 'Josefin Sans', sans-serif;
+	}
 	h1 {
 		font-size: 3em;
 		font-weight:lighter;
@@ -17,7 +17,7 @@ html {
 		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
-}
+	}
 	a {
 		text-align: center;
 		color: #751d78;
@@ -28,27 +28,20 @@ html {
 		cursor: pointer;
 	}
 
+/* Fullpage CSS */
 
-	/* Centered texts in each section
-	* --------------------------------------- */
 	.section {
 		text-align:center;
 	}
 
-		/* Overwriting styles for the navigation dots (to place it where we want)
-	* --------------------------------------- */
 	.fp-slidesNav.bottom{
 		bottom: 25px;
 	}
 
-	/* Bottom menu
-	* --------------------------------------- */
 	#infoMenu li a {
 		color: #fff;
 	}
 
-	/* Defining each section background and styles
-	* --------------------------------------- */
 	#section0{
 		background: -webkit-gradient(linear, top left, bottom left, from(#fdded1), to(#d2cfdf));
 		background: -webkit-linear-gradient(#fdded1, #d2cfdf);
@@ -73,8 +66,6 @@ html {
 		background: linear-gradient(#cedde3,#fdded1);
 	}
 
-	/* Menu CSS
-	* --------------------------------------- */
 	#menu {
     position:fixed;
     background: rgba(115,119,57, 0.1);
@@ -127,8 +118,7 @@ html {
 		color: #fff;
 	}
 
-	/* Custom styles added to each section
-	* --------------------------------------- */
+/* Custom */
 
 	#welcome {
 		background-image: url('../assets/mandala.png');
@@ -144,7 +134,6 @@ html {
 		font-weight: lighter;
 	}
 	p {
-		font-size: 1.4em;
 		color: #1c3662;
 		width: 80%;
 		text-align: justify;
@@ -194,7 +183,11 @@ html {
 	}
 	#skills {
 		text-align: center;
+	 	font-size: .5em;
 	}
+
+/* Responsive CSS */
+
 	@media only screen and (max-width: 380px) {
 		#welcome {
 			background-image: url('../assets/mandalasm.png');
@@ -209,7 +202,7 @@ html {
 			position:fixed;
 			background: rgba(115,119,57, 0.1);
 			transition: top 0.2s;
-			height: 9vh;
+			height: 8vh;
 			text-align: center;
 			top:0;
 			left:0;
@@ -223,13 +216,13 @@ html {
 			font-family: 'Josefin Sans', sans-serif;
 			font-weight: lighter;
 		}
-			h1 {
-				font-size: 1.4em;
-				font-weight:lighter;
-				font-family: 'Josefin Sans', sans-serif;
-				color: rgba(90, 53, 214, .8);
-				margin:0;
-				padding:0;
+		h1 {
+			font-size: 1.4em;
+			font-weight:lighter;
+			font-family: 'Josefin Sans', sans-serif;
+			color: rgba(90, 53, 214, .8);
+			margin:0;
+			padding:0;
 		}
 		h2 {
 			font-size: .7em;
@@ -243,6 +236,7 @@ html {
 			width: 85%;
 			text-align: justify;
 			margin: 0 auto;
+			padding: -20px;
 		}
 		.description {
 			font-size: .6em;
@@ -266,4 +260,10 @@ html {
 		.portfolio-txt {
 			padding-top: 75px;
 		}
+		#skills {
+			text-align: center;
+			font-size: .5em;
+			padding: -10px;
+		}
 	}
+}
