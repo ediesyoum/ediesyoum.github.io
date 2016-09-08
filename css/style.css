@@ -207,13 +207,8 @@
 			padding: 0;
 			margin:0;
 		}
-		html {
-			font-size: 1.5em;
-			font-family: 'Josefin Sans', sans-serif;
-			font-weight: lighter;
-		}
 		h1 {
-			font-size: 1.4em;
+			font-size: 4vh;
 			font-weight:lighter;
 			font-family: 'Josefin Sans', sans-serif;
 			color: rgba(90, 53, 214, .8);
@@ -221,28 +216,31 @@
 			padding:0;
 		}
 		h2 {
-			font-size: .7em;
+			font-size: 3vh;
 			color: rgba(28,54,98, .5);
 			font-family: 'Josefin Sans', sans-serif;
 			font-weight: lighter;
 		}
 		p {
-			font-size: .6em;
+			font-size: 2vh;
 			color: #1c3662;
-			width: 70%;
+			width: 100%;
 			text-align: justify;
-			margin: -2px auto;
+			margin: 0 auto;
 		}
 		.description {
-			font-size: .6em;
+			font-size: 2vh;
 			color: #1c3662;
 			width: 60%;
 			text-align: justify;
 			margin: 0 auto;
-			padding: 5%;
+			padding: 10%;
 		}
 		a {
 			font-size: .6em;
+		}
+		.portfolio-div {
+			margin: 0 auto;
 		}
 		#portfolio-img {
 			max-width: 40%;
@@ -253,11 +251,11 @@
 			opacity: 0.8;
 		}
 		.portfolio-txt {
-			padding-top: 75px;
+			padding-top: 150px;
 		}
 		#skills {
 			text-align: center;
-			font-size: .5em;
+			/*font-size: .6em;*/
 			padding: -10px;
 		}
 	}
