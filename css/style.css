@@ -140,7 +140,7 @@
 		margin: 0 auto;
 	}
 	.description {
-		font-size: 1.3em;
+		font-size: 2vh;
 		color: #1c3662;
 		width: 60%;
 		text-align: justify;
@@ -160,9 +160,9 @@
 		text-align: center;
 	}
 	.about {
+		font-size: 2vh;
 		width: 70%;
 		margin: 20px auto;
-		font-size: .9em;
 	}
 	#portfolio-img {
 		max-width: 40%;
@@ -183,7 +183,6 @@
 	}
 	#skills {
 		text-align: center;
-	 	font-size: .5em;
 	}
 
 /* Responsive CSS */
